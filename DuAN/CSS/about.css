@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: x-large;
+}
+
+:root {
+    --mau1: #444;
+    --mau2: #d1c7bb;
+    --mau3: #abb1b4;
+    --mau4: #444;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: #fff;
+    position: relative;
+    position: fixed;
+    z-index: 4;
+}
+
+header img {
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+header nav {
+    margin-top: -66px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--mau1);
+    padding: 13px;
+    font-size: larger;
+}
+
+header .dk button {
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    background-color: var(--mau2);
+    text-transform: uppercase;
+    padding: 10px 35px;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header .dn button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: var(--mau3);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    color: #fff;
+}
+
+header input {
+    position: absolute;
+    right: 122px;
+    top: 90px;
+    height: 30px;
+    width: 200px;
+    border-radius: 1px;
+    border: #aaa solid 2px;
+}
+
+header .home {
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 68px;
+}
+
+header .tym {
+    height: 30px;
+    position: absolute;
+    right: 70px;
+    top: 68px;
+}
+
+header .lup {
+    height: 26px;
+    position: absolute;
+    right: 124px;
+    top: 67px;
+}       
+
+section {
+    font-size: 15px;
+    width: 100%;
+    background-color: #f8f8f8;
+    align-content: center;
+}
+
+section .img1 {
+    margin-top: 140px;
+    width: 100%;
+}
+
+.noidung {
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* .noidung div:nth-of-type(1) p:nth-of-type(2){
+    float: right;
+    width: 81%;
+} */
+
+.social{
+    background-color: #abb1b4;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social> h2 {
+    float: left;
+}
+
+.rowe_social img{
+    width: 40px;
+    height: 40px;
+}
+
+.rowe_social li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.box_in4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    position: relative;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 200px 0 200px;
+}
+
+footer .box>* {
+    text-align: center;
+}
+
+footer .box h3 {
+    font-weight: 400;
+}
+
+footer .text-final {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
