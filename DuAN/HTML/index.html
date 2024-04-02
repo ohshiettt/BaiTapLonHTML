@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <style>
+      .box4 {
+        width: 1200px;
+        background-color: #f00;
+      }
+      .box4-1 {
+        height: 800px;
+        background-color: #fff4;
+      }
+      .box4-2 {
+        height: 800px;
+        background-color: 0004;
+      }
+      footer {
+        width: 800px;
+        height: 200px;
+        background-color: black;
+      }
+      .box4-1 {
+        position: relative;
+      }
+      .box4-1 img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .box4-1 p {
+        position: absolute;
+        bottom: 150px;
+      }
+      .box4-1 button {
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .box4-2 {
+        position: relative;
+      }
+      .box4-2 :nth-child(1) {
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        top: 380px;
+        left: 20%;
+        border: #fff solid 1px;
+      }
+      .box4-2 :nth-child(2) {
+        position: absolute;
+        z-index: 1;
+        top: 30px;
+        height: 640px;
+        right: 30px;
+        border: #fff solid 1px;
+      }
+      .box4-2 :nth-child(3) {
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+        height: 540px;
+        top: 80px;
+        border: #fff solid 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box4">
+        <div class="row">
+          <div class="box4-1 col-xl-4 col-md-12">
+            <img
+              src="../IMG/home-section-logo345.svg"
+              style="width: 400px"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+              voluptatibus officiis voluptatem atque saepe nulla delectus dicta at
+              veniam! Et atque consequuntur maiores aspernatur corrupti, id
+              inventore repudiandae sit possimus repellendus voluptas porro,
+              dolores nisi, quam explicabo ad ut repellat ducimus nobis! Sapiente
+              ducimus repudiandae quasi expedita, iusto voluptates excepturi.
+            </p>
+            <a href="#"><button>Learn more</button></a>
+          </div>
+          <div class="box4-2 col-xl-8 col-md-12">
+            <img src="../IMG/home-section-anh3.jpg" alt="Ảnh minh họa" />
+            <img src="../IMG/home-section-anh4.jpg" alt="Ảnh minh họa" />
+            <img src="../IMG/home-section-anh5.jpg" alt="Ảnh minh họa" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
